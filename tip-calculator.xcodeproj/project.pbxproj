@@ -29,6 +29,8 @@
 		C2B4CBED2B9F3FFA0086E835 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B4CBEC2B9F3FFA0086E835 /* ThemeFont.swift */; };
 		C2B4CBF02B9F40260086E835 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B4CBEF2B9F40260086E835 /* UIColor+Extension.swift */; };
 		C2B4CBF32B9F430B0086E835 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B4CBF22B9F430B0086E835 /* LabelFactory.swift */; };
+		C2B4CBF52B9F48190086E835 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B4CBF42B9F48190086E835 /* UIView+Extension.swift */; };
+		C2B4CBF72B9F4B210086E835 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B4CBF62B9F4B210086E835 /* AmountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		C2B4CBEC2B9F3FFA0086E835 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		C2B4CBEF2B9F40260086E835 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		C2B4CBF22B9F430B0086E835 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		C2B4CBF42B9F48190086E835 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C2B4CBF62B9F4B210086E835 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +176,7 @@
 				C2B4CBE12B9F3DE30086E835 /* ResultView.swift */,
 				C2B4CBE32B9F3DF20086E835 /* BillInputView.swift */,
 				C2B4CBE72B9F3E150086E835 /* SplitInputView.swift */,
+				C2B4CBF62B9F4B210086E835 /* AmountView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				C2B4CBEF2B9F40260086E835 /* UIColor+Extension.swift */,
+				C2B4CBF42B9F48190086E835 /* UIView+Extension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -346,7 +352,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B4CBF72B9F4B210086E835 /* AmountView.swift in Sources */,
 				C2B4CBA32B9F39E90086E835 /* CalculatorVC.swift in Sources */,
+				C2B4CBF52B9F48190086E835 /* UIView+Extension.swift in Sources */,
 				C2B4CBE02B9F3D550086E835 /* LogoView.swift in Sources */,
 				C2B4CBEB2B9F3FF40086E835 /* ThemeColor.swift in Sources */,
 				C2B4CBF02B9F40260086E835 /* UIColor+Extension.swift in Sources */,
