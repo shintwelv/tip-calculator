@@ -24,6 +24,10 @@ class CalculatorVM {
     
     func transform(input: Input) -> Output {
         
+        input.splitPublisher.sink { split in
+            print("the split: \(split)")
+        }.store(in: &cancellables)
+        
         let result = Result(
             amountPerPerson: 500,
             totalBill: 1000,
