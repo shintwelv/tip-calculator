@@ -12,6 +12,7 @@
 		C21B93FE2BA08248003268A8 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B93FD2BA08248003268A8 /* String+Extension.swift */; };
 		C21B94002BA086AA003268A8 /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B93FF2BA086AA003268A8 /* UIResponder+Extension.swift */; };
 		C21B94022BA08C32003268A8 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B94012BA08C32003268A8 /* Int+Extension.swift */; };
+		C21B94042BA09044003268A8 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B94032BA09044003268A8 /* Double+Extension.swift */; };
 		C2B4CB9F2B9F39E90086E835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B4CB9E2B9F39E90086E835 /* AppDelegate.swift */; };
 		C2B4CBA12B9F39E90086E835 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B4CBA02B9F39E90086E835 /* SceneDelegate.swift */; };
 		C2B4CBA32B9F39E90086E835 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B4CBA22B9F39E90086E835 /* CalculatorVC.swift */; };
@@ -63,6 +64,7 @@
 		C21B93FD2BA08248003268A8 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		C21B93FF2BA086AA003268A8 /* UIResponder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
 		C21B94012BA08C32003268A8 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		C21B94032BA09044003268A8 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		C2B4CB9B2B9F39E90086E835 /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B4CB9E2B9F39E90086E835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2B4CBA02B9F39E90086E835 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 				C21B93FD2BA08248003268A8 /* String+Extension.swift */,
 				C21B93FF2BA086AA003268A8 /* UIResponder+Extension.swift */,
 				C21B94012BA08C32003268A8 /* Int+Extension.swift */,
+				C21B94032BA09044003268A8 /* Double+Extension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				C2B4CB9F2B9F39E90086E835 /* AppDelegate.swift in Sources */,
 				C2B4CBED2B9F3FFA0086E835 /* ThemeFont.swift in Sources */,
 				C2B4CBA12B9F39E90086E835 /* SceneDelegate.swift in Sources */,
+				C21B94042BA09044003268A8 /* Double+Extension.swift in Sources */,
 				C2B4CBF32B9F430B0086E835 /* LabelFactory.swift in Sources */,
 				C2B4CBFA2B9F53EA0086E835 /* Tip.swift in Sources */,
 				C2B4CBE82B9F3E150086E835 /* SplitInputView.swift in Sources */,
