@@ -31,4 +31,36 @@ final class tip_calculatorUITests: XCTestCase {
         XCTAssertEqual(screen.totalBillValueLabel.label, "$0")
         XCTAssertEqual(screen.totalTipValueLabel.label, "$0")
     }
+    
+    func testRegularTip() {
+        screen.enterBill(amount: 100)
+        XCTAssertEqual(screen.amountPerPersonValueLabel.label, "₩100")
+        XCTAssertEqual(screen.totalBillValueLabel.label, "₩100")
+        XCTAssertEqual(screen.totalTipValueLabel.label, "₩0")
+        
+        screen.selectTip(tip: .tenPercent)
+        XCTAssertEqual(screen.amountPerPersonValueLabel.label, "₩110")
+        XCTAssertEqual(screen.totalBillValueLabel.label, "₩110")
+        XCTAssertEqual(screen.totalTipValueLabel.label, "₩10")
+        
+        screen.selectTip(tip: .fifteenPercent)
+        XCTAssertEqual(screen.amountPerPersonValueLabel.label, "₩115")
+        XCTAssertEqual(screen.totalBillValueLabel.label, "₩115")
+        XCTAssertEqual(screen.totalTipValueLabel.label, "₩15")
+        
+        screen.selectTip(tip: .twentyPercent)
+        XCTAssertEqual(screen.amountPerPersonValueLabel.label, "₩120")
+        XCTAssertEqual(screen.totalBillValueLabel.label, "₩120")
+        XCTAssertEqual(screen.totalTipValueLabel.label, "₩20")
+        
+        screen.selectIncrementButton(numberOfTaps: 3)
+        XCTAssertEqual(screen.amountPerPersonValueLabel.label, "₩30")
+        XCTAssertEqual(screen.totalBillValueLabel.label, "₩120")
+        XCTAssertEqual(screen.totalTipValueLabel.label, "₩20")
+        
+        screen.selectDecrementButton(numberOfTaps: 2)
+        XCTAssertEqual(screen.amountPerPersonValueLabel.label, "₩60")
+        XCTAssertEqual(screen.totalBillValueLabel.label, "₩120")
+        XCTAssertEqual(screen.totalTipValueLabel.label, "₩20")
+    }
 }
